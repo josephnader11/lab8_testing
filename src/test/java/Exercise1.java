@@ -11,18 +11,18 @@ public class Exercise1 {
     @BeforeTest
     public void openWebSite() {
         driver = new ChromeDriver();
-        System.out.println("Before Test: Opening Website");
+        System.out.println("before Test: opening Website");
         driver.get("https://www.amazon.eg/");
     }
 
     @Test(priority = 1)
     public void signUp() {
-        System.out.println("Test Priority 1: In Sign Up");
+        System.out.println("Test Priority 1: In sign Up");
     }
 
     @Test(priority = 2)
     public void logIn() {
-        System.out.println("Test Priority 2: In Login");
+        System.out.println("Test Priority 2: In login");
     }
 
     @Test(priority = 3)

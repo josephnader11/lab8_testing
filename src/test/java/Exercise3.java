@@ -55,11 +55,11 @@ public class Exercise3 {
 
     @AfterGroups("Smoke")
     public void endSmoke() {
-        System.out.println("Finished Smoke group execution.");
+        System.out.println("Finished Smoke Group Execution.");
     }
 
     @AfterGroups("Regression")
     public void endRegression() {
-        System.out.println("Finished Regression group execution.");
+        System.out.println("Finished Regression Group execution.");
     }
 }
